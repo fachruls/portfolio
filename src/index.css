@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui, sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(34, 197, 94, 0.3) rgba(240, 253, 244, 0.8);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background: #ffffff;
+  scroll-behavior: smooth !important;
+}
+
+@keyframes blob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-blob {
+  animation: blob 8s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Enhanced Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(240, 253, 244, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(34, 197, 94, 0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  box-shadow:
+    inset 0 0 20px rgba(34, 197, 94, 0.2),
+    0 0 10px rgba(34, 197, 94, 0.2);
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(34, 197, 94, 0.6);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  box-shadow:
+    inset 0 0 30px rgba(34, 197, 94, 0.3),
+    0 0 15px rgba(34, 197, 94, 0.3);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(34, 197, 94, 0.8);
+  border: 1px solid rgba(34, 197, 94, 0.5);
+  box-shadow:
+    inset 0 0 40px rgba(34, 197, 94, 0.4),
+    0 0 20px rgba(34, 197, 94, 0.4);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+[data-aos] {
+  will-change: transform, opacity !important;
+}
+
+@keyframes shine {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 200%;
+  }
+}
+
+.animate-shine {
+  animation: shine 1.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
