@@ -1,0 +1,163 @@
+﻿node.exe : npm warn 
+ERESOLVE overriding 
+peer dependency
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecified  
+  : (npm warn ERESOL.   
+ ..peer dependency:S    
+tring) [], RemoteEx    
+ception
+    + FullyQualifiedErr 
+   orId : NativeComman  
+  dError
+ 
+npm warn While 
+resolving: react-event-l
+istener@0.6.6
+npm warn Found: 
+react@18.3.1
+npm warn 
+node_modules/react
+npm warn   
+react@"^18.3.1" from 
+the root project
+npm warn   36 more 
+(@emotion/react, 
+@emotion/styled, ...)
+npm warn
+npm warn Could not 
+resolve dependency:
+npm warn peer 
+react@"^16.3.0" from rea
+ct-event-listener@0.6.6
+npm warn node_modules/re
+act-event-listener
+npm warn   react-event-l
+istener@"^0.6.0" from re
+act-swipeable-views-util
+s@0.14.0
+npm warn   node_modules/
+react-swipeable-views-ut
+ils
+npm warn
+npm warn Conflicting 
+peer dependency: 
+react@16.14.0
+npm warn 
+node_modules/react
+npm warn   peer 
+react@"^16.3.0" from rea
+ct-event-listener@0.6.6
+npm warn   node_modules/
+react-event-listener
+npm warn     react-event
+-listener@"^0.6.0" from 
+react-swipeable-views-ut
+ils@0.14.0
+npm warn     node_module
+s/react-swipeable-views-
+utils
+npm error code ERESOLVE
+npm error ERESOLVE 
+could not resolve
+npm error
+npm error While 
+resolving: react-swipeab
+le-views@0.14.0
+npm error Found: 
+react@18.3.1
+npm error 
+node_modules/react
+npm error   
+react@"^18.3.1" from 
+the root project
+npm error   peer 
+react@">=16.8.0" from 
+@emotion/react@11.13.3
+npm error   node_modules
+/@emotion/react
+npm error     @emotion/r
+eact@"^11.13.3" from 
+the root project
+npm error     peer @emot
+ion/react@"^11.0.0-rc.0"
+ from 
+@emotion/styled@11.13.0
+npm error     node_modul
+es/@emotion/styled
+npm error       @emotion
+/styled@"^11.13.0" from 
+the root project
+npm error       3 more 
+(@mui/material, 
+@mui/styled-engine, 
+@mui/system)
+npm error     3 more 
+(@mui/material, 
+@mui/styled-engine, 
+@mui/system)
+npm error   35 more 
+(@emotion/styled, ...)
+npm error
+npm error Could not 
+resolve dependency:
+npm error peer 
+react@"^15.3.0 || 
+^16.0.0 || ^17.0.0" 
+from react-swipeable-vie
+ws@0.14.0
+npm error node_modules/r
+eact-swipeable-views
+npm error   react-swipea
+ble-views@"^0.14.0" 
+from the root project
+npm error
+npm error Conflicting 
+peer dependency: 
+react@17.0.2
+npm error 
+node_modules/react
+npm error   peer 
+react@"^15.3.0 || 
+^16.0.0 || ^17.0.0" 
+from react-swipeable-vie
+ws@0.14.0
+npm error   node_modules
+/react-swipeable-views
+npm error     react-swip
+eable-views@"^0.14.0" 
+from the root project
+npm error
+npm error Fix the 
+upstream dependency 
+conflict, or retry
+npm error this command 
+with --force or 
+--legacy-peer-deps
+npm error to accept an 
+incorrect (and 
+potentially broken) 
+dependency resolution.
+npm error
+npm error
+npm error For a full 
+report see:
+npm error C:\Users\OMEN\
+AppData\Local\npm-cache\
+_logs\2026-03-17T00_35_1
+7_573Z-eresolve-report.t
+xt
+npm error A complete 
+log of this run can be 
+found in: C:\Users\OMEN\
+AppData\Local\npm-cache\
+_logs\2026-03-17T00_35_1
+7_573Z-debug-0.log
