@@ -184,7 +184,7 @@ const AboutPage = () => {
 
   return (
     <div
-      className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0" 
+      className="h-auto pb-[10%] overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0 text-gray-800" 
       id="About"
      itemScope
   itemType="https://schema.org/Person"
@@ -204,7 +204,7 @@ const AboutPage = () => {
                 Hello, I'm
               </span>
               <span 
-                className="block mt-2 text-gray-200"
+                className="block mt-2 text-gray-900 font-extrabold"
                 data-aos="fade-right"
                 data-aos-duration="1300"
                 itemProp="name"
@@ -214,12 +214,12 @@ const AboutPage = () => {
             </h2>
             
             <p 
-              className="text-base sm:text-lg lg:text-xl text-gray-400 leading-relaxed text-justify pb-4 sm:pb-0"
+              className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed text-justify pb-4 sm:pb-0"
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-        Saya adalah mahasiswa Teknik Informatika yang berfokus pada pengembangan Front-End dan Back-End. 
-Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan.
+        Saya adalah seorang <strong className="font-semibold text-gray-800">Pegawai ASN di sebuah Pengadilan</strong> dan juga <strong className="font-semibold text-gray-800">mahasiswa Teknik Informatika</strong> yang berfokus pada pengembangan Front-End dan Back-End. 
+Saya berdedikasi pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan.
                   </p>
                {/* Quote Section */}
       <div 
@@ -238,7 +238,7 @@ Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupay
           </svg>
         </div>
         
-        <blockquote className="text-gray-300 text-center lg:text-left italic font-medium text-sm relative z-10 pl-6">
+        <blockquote className="text-gray-700 text-center lg:text-left italic font-medium text-sm relative z-10 pl-6">
           "Leveraging AI as a professional tool, not a replacement."
         </blockquote>
       </div>
